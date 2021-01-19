@@ -1,13 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 import psycopg2
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Connect to database 
-conn = psycopg2.connect("dbname=credit_fraud user=postgres password=Zrnkbx8O")
+conn = psycopg2.connect("dbname=credit_fraud user=usr password=pwd")
 
 # Get data from table
 # Data obtained from https://www.kaggle.com/mishra5001/credit-card 
@@ -312,3 +309,4 @@ df_objects
 
 
 
+Removed unnecessary comments
